@@ -15,10 +15,19 @@
   <body>
     <div class="wrapper">
       <header>
+        {% comment %} Navigation bar for main pages {% endcomment %}
         {% if page.dir == "/en/" %}
           {% include navigation_bar_en.html %}
         {% endif %}
         {% if page.dir == "/de/" %}
+          {% include navigation_bar_de.html %}
+        {% endif %}
+        
+        {% comment %} Navigation bar for posts {% endcomment %}
+        {% if page.categories contains "en" %}
+          {% include navigation_bar_en.html %}
+        {% endif %}
+        {% if page.categories contains "de" %}
           {% include navigation_bar_de.html %}
         {% endif %}
         
