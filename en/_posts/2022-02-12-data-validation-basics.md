@@ -3,136 +3,142 @@ title: Data Validation Basics
 tags: [data validation]
 ---
 
-TODO translate
+`Data` > `Data Validation`
+
+![](/assets/2022/data-validation/ribbon-data-validation-en.png)
+
+## Create a drop-down list (most common use)
 
 
-`Daten` > `Datenüberprüfung`
-![](/assets/2022/data-validation/ribbon-data-validation-de.png)
+You can limit the choice of values from a previously defined list.
 
-## Erstellen von Dropdown-Listen (häufige Anwendung)
+![](/assets/2022/data-validation/dropdown-fruits-en.png)
 
-![](/assets/2022/data-validation/data-validation-settings-list-de.png)
+To create this, click on `Data` > `Data Validation` > `Allow` > `List` and define the values in `Source`.
 
-Hiermit können Elemente aus einer vordefinierten Liste ausgewählt werden.
+![](/assets/2022/data-validation/data-validation-settings-list-en.png)
 
-![](/assets/2022/data-validation/dropdown-fruits-de.png)
+There are two ways to enter values.
 
-Um diese zu erstellen, klickt man auf `Daten` > `Datenüberprüfung` > `Zulassen` > `Liste` und definiert die Werte im Feld `Quelle`.
-Es gibt zwei Möglichkeiten, Werte einzugeben.
+- Define these explicitly separated by a comma.
+![](/assets/2022/data-validation/dropdown-list-explicit-en.png)
+- Select a range of cells with the desired values.
+![](/assets/2022/data-validation/dropdown-list-source-1-en.png)
+![](/assets/2022/data-validation/dropdown-list-source-2-en.png)
 
-- Man definiert die Werte explizit mittels der *;*-Trennung.
-![](/assets/2022/data-validation/dropdown-list-explicit-de.png)
-- Man wählt einen Zellen-Bereich mit der gewünschten Werten aus.
-![](/assets/2022/data-validation/dropdown-list-source-1-de.png)
-![](/assets/2022/data-validation/dropdown-list-source-2-de.png)
+An error message is shown when a value not belonging to the list is entered.
 
-Wenn man einen Wert einträgt, der nicht zur Liste gehört, wird eine Fehlermeldung gezeigt.
-
-![](/assets/2022/data-validation/dropdown-pineapple-error-de.png)
+![](/assets/2022/data-validation/dropdown-pineapple-error-en.png)
  
 
-## Andere Arten Daten zulassen (keine Liste)
+## Allow other kind of data (not from a list)
 
-Die Dropdown-Liste erfüllt 95% der Anwendungen der Datenüberprüfung-Funktion, aber die Funktion heißt Datenüberprüfung, nicht Dropdown-Liste. 
-Man kann andere Arten Datenüberprüfungen definieren, die keine Liste sind und kein Dropdown zeigen. 
+The drop-down menu includes 95 % of the uses of data validation, but the functionality is called data validation, not drop-down list.
+There are several other kind of data validations to define which are not a list and do not show a drop-down.
 
-### Ganze Zahl zulassen
+### Allow whole numbers
 
-Man kann z.B. nur ganze Zahlen zwischen 0 und 20 eintragen lassen.
-Wenn man eine negative (z.B. *-1*) oder Dezimalzahl einträgt (z.B. *3,7*), dann wird die Fehlermeldung gezeigt.
+You can e.g. only allow whole numbers between *0* and *20*.
+The error message will be shown when entering a negative number (like *-1*) or decimal number (like *3.7*).
 
-![](/assets/2022/data-validation/whole-number-0-20-de.png)
+![](/assets/2022/data-validation/whole-number-0-20-en.png)
 
-### Wert zwischen 0% und 100% zulassen
+### Allow value between 0 % and 100 %
 
-Ein Prozent wird von Excel als Nummer interpretiert, z.B. *21% = 0,21*. 
-Man kann deswegen indirekt ein Prozent-Eingabefeld definieren mit der Datenüberprüfung zwischen *0% = 0* und *100% = 1* und Zellenformatierung als Prozent.
+A percentage is interpreted by Excel as any other number, e.g. *21 % = 0.21*.
+You can therefore define a percentage input field indirectly with a data validation between  *0 % = 0*, *100 % = 1*, and cell format as percentage.
 
-![](/assets/2022/data-validation/percent-0-100-validation-de.png)
-![](/assets/2022/data-validation/percent-0-100-format-de.png)
+![](/assets/2022/data-validation/percent-0-100-validation-en.png)
 
-## Eingabemeldung (nützlich auch ohne Dateneinschränkung)
+![](/assets/2022/data-validation/percent-0-100-format-en.png)
 
-Wenn man Werte zulässt, die nicht durch eine Liste definiert sind, gibt es i.A. keine Indikation von welchen Werte erlaubt sind.
-Man kann eine entsprechende Eingabemeldung unter `Eingabemeldung` definieren.
-Diese wird nur gezeigt, wenn man die Zelle selektiert.
+## Input message (useful even without data validation)
 
-![](/assets/2022/data-validation/input-message-definition-1-de.png)
-![](/assets/2022/data-validation/input-message-example-1-de.png)
+When allowing a values which do not belong to a list, there is in general no indication to the user of which ones can be entered.
+You can provide such an indication through the `Input Message` tab.
+It will be only shown when the cell is selected.
 
-Es ist möglich eine Eingabemeldung zu definieren, auch wenn `Jeden Wert` zugelassen wird.
-Das ist nützlich um Kommentare über den Inhalt der Zelle einzufügen.
+![](/assets/2022/data-validation/input-message-definition-1-en.png)
 
-![](/assets/2022/data-validation/input-message-definition-2-de.png)
-![](/assets/2022/data-validation/input-message-example-2-de.png)
+![](/assets/2022/data-validation/input-message-example-1-en.png)
 
-## Fehlermeldungen
+It is possible to define an input message even if `Any value` is allowed.
+This is useful to enter remarks about the content of the cells.
 
-Wenn man einen nicht zugelassenen Wert einträgt, wird eine Standard-Fehlermeldung gezeigt.
+![](/assets/2022/data-validation/input-message-definition-2-en.png)
 
-![](/assets/2022/data-validation/error-stop-standard-de.png)
+![](/assets/2022/data-validation/input-message-example-2-en.png)
 
-Diese kann unten `Fehlermeldung` personalisiert werden, um aussagekräftiger zu sein.
+## Error Alert
 
-![](/assets/2022/data-validation/error-stop-custom-def-de.png)
-![](/assets/2022/data-validation/error-stop-custom-msg-de.png)
+When entering a non-allowed value, a standard error alert is shown.
 
-Man kann andere Arten Fehlermeldung nutzen. 
-Diese werten mit `Typ` ausgewählt.
-- Stopp
-- Warnung
-- Informationen
+![](/assets/2022/data-validation/error-stop-standard-en.png)
 
-![](/assets/2022/data-validation/error-kind-dropdown-de.png)
+This can be personalized on the `Error Alert` tab to show a more meaningful message.
 
-### Stopp
+![](/assets/2022/data-validation/error-stop-custom-def-en.png)
 
-`Stopp` ist die Standard-Fehlermeldung.
+![](/assets/2022/data-validation/error-stop-custom-msg-en.png)
 
-![](/assets/2022/data-validation/error-stop-standard-de.png)
+You can use other kind of error alerts.
+These can be picked under `Style`.
+- Stop
+- Warning
+- Information
 
-- Mit `Wiederholen` wird die Zelle erneut markiert, um Änderungen vorzunehmen. 
-- Mit `Abbrechen` wird der aktuelle Eintrag entfernt.
-- Mit `Hilfe` wird die [entsprechende Dokumentation](https://support.microsoft.com/de-de/office/anwenden-von-daten%c3%bcberpr%c3%bcfung-auf-zellen-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249?ns=excel&version=90&syslcid=1031&uilcid=1031&appver=zxl900&helpid=xlmain11.chm467148&ui=de-de&rs=de-de&ad=de) geöffnet.
+![](/assets/2022/data-validation/error-kind-dropdown-en.png)
 
-### Warnung
+### Stop
 
-Mit `Warnung` kann man nach Bestätigung den Wert dennoch eintragen.
-Z.B. in der Regel will man ein Datum in der Vergangenheit, aber manchmal wünscht man auch zukünftige Daten.
+`Stop` is the default error alert.
 
-![](/assets/2022/data-validation/error-warning-standard-de.png)
+![](/assets/2022/data-validation/error-stop-standard-en.png)
 
-- Mit `Ja` bleibt der Eintrag unberührt, auch wenn er die Daten-Zulassung nicht entspricht.
-- Mit `Nein` wird die Zelle und dessen derzeitiger Eintrag zur erneuten Bearbeitung markiert. 
-- Mit `Abbrechen` wird der aktuelle Eintrag entfernt.
-- Mit `Hilfe` wird die [entsprechende Dokumentation](https://support.microsoft.com/de-de/office/anwenden-von-daten%c3%bcberpr%c3%bcfung-auf-zellen-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249?ns=excel&version=90&syslcid=1031&uilcid=1031&appver=zxl900&helpid=xlmain11.chm467148&ui=de-de&rs=de-de&ad=de) geöffnet.
+- `Retry` selects the cell again to edit the entered value.
+- `Cancel` deletes the entered value. 
+- `Help` opens the [data validation documentation](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249).
 
-![](/assets/2022/data-validation/error-warning-custom-def-de.png)
-![](/assets/2022/data-validation/error-warning-custom-msg-de.png)
+### Warning
 
-### Informationen
+With `Warning` a value can be entered anyway if confirmed.
+E.g. you might have a situation where in most cases a past date should be entered, while it should still be possible to enter future dates sometimes.
 
-Mit `Informationen` bekommt man nur die Meldung und der Wert wird ohne Bestätigung eingetragen.
+![](/assets/2022/data-validation/error-warning-standard-en.png)
 
-![](/assets/2022/data-validation/error-information-standard-de.png)
+- `Yes` leaves the entered value, even if it doesn't meet the allowance criterium.
+- `No` selects the cell again to edit the value.
+- `Cancel` deletes the entered value. 
+- `Help` opens the [data validation documentation](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249).
 
-- Mit `OK` wird der aktuelle Eintrag angenommen.
-- Mit `Abbrechen` wird der aktuelle Eintrag entfernt.
-- Mit `Hilfe` wird die [entsprechende Dokumentation](https://support.microsoft.com/de-de/office/anwenden-von-daten%c3%bcberpr%c3%bcfung-auf-zellen-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249?ns=excel&version=90&syslcid=1031&uilcid=1031&appver=zxl900&helpid=xlmain11.chm467148&ui=de-de&rs=de-de&ad=de) geöffnet.
+![](/assets/2022/data-validation/error-warning-custom-def-en.png)
 
-![](/assets/2022/data-validation/error-information-custom-def-de.png)
-![](/assets/2022/data-validation/error-information-custom-msg-de.png)
+![](/assets/2022/data-validation/error-warning-custom-msg-en.png)
 
-### Fehlermeldung deaktivieren
+### Information
 
-Man kann entscheiden keine Fehlermeldung anzuzeigen, in meisten Fällen ist dann wie ob es keine Daten-Dateneinschränkung gäbe.
+With `Information` the value is entered without explicit confirmation.
 
-![](/assets/2022/data-validation/error-no-message-de.png)
+![](/assets/2022/data-validation/error-information-standard-en.png)
 
-Es ist nützlich um Standard-Optionen als Dropdown-Liste zu zeigen und um trotzdem personalisierte Werte zu ermöglichen.
+- `OK` leaves the entered value, even if it doesn't meet the allowance criterium.
+- `Cancel` deletes the entered value. 
+- `Help` opens the [data validation documentation](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249).
 
-![](/assets/2022/data-validation/error-no-message-example-de.png)
+![](/assets/2022/data-validation/error-information-custom-def-en.png)
+
+![](/assets/2022/data-validation/error-information-custom-msg-en.png)
+
+### Deactivate error alert
+
+You can choose to deactivate the error alert, in most cases it will be as if there is no data validation in place.
+
+![](/assets/2022/data-validation/error-no-message-en.png)
+
+This is useful to show standard options from a drop-down list while still allowing to entered custom values.
+
+![](/assets/2022/data-validation/error-no-message-example-en.png)
 
 ## Download
 
-- [Beispiel](/assets/2022/data-validation/01-data-validation-example-de.xlsx)
+- [Example](/assets/2022/data-validation/01-data-validation-example-en.xlsx)
