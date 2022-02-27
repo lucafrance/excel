@@ -1,6 +1,7 @@
 ---
 title: Data Validation Basics
 tags: [data validation]
+last_update: 2022-02-27
 ---
 
 `Data` > `Data Validation`

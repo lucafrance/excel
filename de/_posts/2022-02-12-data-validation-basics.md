@@ -1,6 +1,7 @@
 ---
 title: Datenüberprüfung Grundlagen
 tags: [Datenüberprüfung]
+last_update: 2022-02-27
 ---
 
 `Daten` > `Datenüberprüfung`
