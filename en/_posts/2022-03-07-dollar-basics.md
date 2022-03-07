@@ -78,7 +78,7 @@ This way it is not necessary to enter the $ at the right spot manually.
 
 ## Download
 
-- [Example](/assets/2022/dollar-basics/01-dollar-basics-example-en.xlsx)
+- [Example]({{ site.baseurl }}/assets/2022/dollar-basics/01-dollar-basics-example-en.xlsx)
 
 ## Links
 

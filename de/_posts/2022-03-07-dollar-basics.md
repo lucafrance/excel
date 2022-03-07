@@ -78,7 +78,7 @@ So braucht man nicht das $-Zeichen manuell auf die richtige Stelle schreiben.
 
 ## Download
 
-- [Beispiel](/assets/2022/dollar-basics/01-dollar-basics-example-de.xlsx)
+- [Beispiel]({{ site.baseurl }}/assets/2022/dollar-basics/01-dollar-basics-example-de.xlsx)
 
 ## Verlinkungen
 

@@ -86,4 +86,4 @@ Here is shown an example with the average of the net unit price and the sum of t
 
 ## Download
 
-- [Example](/assets/2022/tables-basics/01-tables-basics-example-en.xlsx)
+- [Example]({{ site.baseurl }}/assets/2022/tables-basics/01-tables-basics-example-en.xlsx)

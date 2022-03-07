@@ -142,4 +142,4 @@ This is useful to show standard options from a drop-down list while still allowi
 
 ## Download
 
-- [Example](/assets/2022/data-validation/01-data-validation-example-en.xlsx)
+- [Example]({{ site.baseurl }}/assets/2022/data-validation/01-data-validation-example-en.xlsx)

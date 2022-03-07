@@ -85,4 +85,4 @@ Hier ist ein Beispiel mit dem Mittelwert des Einheitspreises und die Summe des G
 
 ## Download
 
-- [Beispiel](/assets/2022/tables-basics/01-tables-basics-example-de.xlsx)
+- [Beispiel]({{ site.baseurl }}/assets/2022/tables-basics/01-tables-basics-example-de.xlsx)
