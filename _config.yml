@@ -6,7 +6,8 @@ exclude:
   - /*.ps1
   - Gemfile
   - Gemfile.lock
-  
+
+baseurl: excel/
 title: Luca Franceschini
 show_downloads: false
   
