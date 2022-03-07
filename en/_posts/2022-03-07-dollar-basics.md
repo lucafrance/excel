@@ -10,7 +10,7 @@ The easiest form of cell reference is taking 1:1 the value from another cell.
 Here e.g. the cell  `A4` contains the value `44` and the cell `B4` contains the formula `=A4`.
 As result the value `44` is shown in the cell `B4`. 
 
-![](/assets/2022/dollar-basics/101-cell-reference.png)
+![]({{ site.baseurl }}/assets/2022/dollar-basics/101-cell-reference.png)
 
 ## Relative reference
 
@@ -22,7 +22,7 @@ By copying the cell `G8` over the range `G8:K12` the cell reference is updated a
 The cell `K12` no longer contains the formula `=A8`, but `=E12`.
 The *relative* distance of the reference stayed the same: 6 columns to the left and the same row. 
 
-![](/assets/2022/dollar-basics/102-no-dollar.png)
+![]({{ site.baseurl }}/assets/2022/dollar-basics/102-no-dollar.png)
 
 ## Mixed reference
 
@@ -33,13 +33,13 @@ Here e.g. the cell `G16` contains the formula `=$A16`.
 Since the $ stands in front of the `A`, the reference to the column does not change when copying over the range `G16:K20`.
 Since there is no $ in front of the `16`, the reference to the row is updated anyway.  
 
-![](/assets/2022/dollar-basics/103-dollar-column.png)
+![]({{ site.baseurl }}/assets/2022/dollar-basics/103-dollar-column.png)
 
 You can similarly lock the reference to the row with a dollar in front of the number.
 Here e.g. the cell `G24` contains the formula `=A$24`.
 When copying `G24` to the range `G24:K28`, the column stays the same while the column is updated.
  
-![](/assets/2022/dollar-basics/104-dollar-row.png)
+![]({{ site.baseurl }}/assets/2022/dollar-basics/104-dollar-row.png)
 
 This is a so-called *mixed reference*, as the dimension with the $ in the front is no longer relative.
 
@@ -51,30 +51,30 @@ The reference will always stay on the same cell, independently from where the fo
 Here e.g. the cell `G32` contains the formula `=$A$32`.
 The reference now remains `=$A$32` over the whole range `G32:K36`.
 
-![](/assets/2022/dollar-basics/105-dollar-column-and-row.png)
+![]({{ site.baseurl }}/assets/2022/dollar-basics/105-dollar-column-and-row.png)
 
 ## Shortcut
 
 You can cycle all possible combinations of the $ by repeatedly pressing `F4`.
 This way it is not necessary to enter the $ at the right spot manually.
 
-> ![](/assets/2022/dollar-basics/201-dollar-f4-1.png)
+> ![]({{ site.baseurl }}/assets/2022/dollar-basics/201-dollar-f4-1.png)
 >
 > `F4` ↓
 >
-> ![](/assets/2022/dollar-basics/202-dollar-f4-2.png)
+> ![]({{ site.baseurl }}/assets/2022/dollar-basics/202-dollar-f4-2.png)
 >
 > `F4` ↓
 >
-> ![](/assets/2022/dollar-basics/203-dollar-f4-3.png)
+> ![]({{ site.baseurl }}/assets/2022/dollar-basics/203-dollar-f4-3.png)
 >
 > `F4` ↓
 >
-> ![](/assets/2022/dollar-basics/204-dollar-f4-4.png)
+> ![]({{ site.baseurl }}/assets/2022/dollar-basics/204-dollar-f4-4.png)
 >
 > `F4` ↓
 >
-> ![](/assets/2022/dollar-basics/201-dollar-f4-1.png)
+> ![]({{ site.baseurl }}/assets/2022/dollar-basics/201-dollar-f4-1.png)
 
 ## Download
 

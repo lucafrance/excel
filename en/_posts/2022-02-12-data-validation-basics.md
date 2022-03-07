@@ -6,30 +6,30 @@ last_update: 2022-02-27
 
 `Data` > `Data Validation`
 
-![](/assets/2022/data-validation/ribbon-data-validation-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/ribbon-data-validation-en.png)
 
 ## Create a drop-down list (most common use)
 
 
 You can limit the choice of values from a previously defined list.
 
-![](/assets/2022/data-validation/dropdown-fruits-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/dropdown-fruits-en.png)
 
 To create this, click on `Data` > `Data Validation` > `Allow` > `List` and define the values in `Source`.
 
-![](/assets/2022/data-validation/data-validation-settings-list-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/data-validation-settings-list-en.png)
 
 There are two ways to enter values.
 
 - Define these explicitly separated by a comma.
-![](/assets/2022/data-validation/dropdown-list-explicit-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/dropdown-list-explicit-en.png)
 - Select a range of cells with the desired values.
-![](/assets/2022/data-validation/dropdown-list-source-1-en.png)
-![](/assets/2022/data-validation/dropdown-list-source-2-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/dropdown-list-source-1-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/dropdown-list-source-2-en.png)
 
 An error message is shown when a value not belonging to the list is entered.
 
-![](/assets/2022/data-validation/dropdown-pineapple-error-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/dropdown-pineapple-error-en.png)
  
 
 ## Allow other kind of data (not from a list)
@@ -42,16 +42,16 @@ There are several other kind of data validations to define which are not a list 
 You can e.g. only allow whole numbers between *0* and *20*.
 The error message will be shown when entering a negative number (like *-1*) or decimal number (like *3.7*).
 
-![](/assets/2022/data-validation/whole-number-0-20-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/whole-number-0-20-en.png)
 
 ### Allow value between 0 % and 100 %
 
 A percentage is interpreted by Excel as any other number, e.g. *21 % = 0.21*.
 You can therefore define a percentage input field indirectly with a data validation between  *0 % = 0*, *100 % = 1*, and cell format as percentage.
 
-![](/assets/2022/data-validation/percent-0-100-validation-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/percent-0-100-validation-en.png)
 
-![](/assets/2022/data-validation/percent-0-100-format-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/percent-0-100-format-en.png)
 
 ## Input message (useful even without data validation)
 
@@ -59,28 +59,28 @@ When allowing a values which do not belong to a list, there is in general no ind
 You can provide such an indication through the `Input Message` tab.
 It will be only shown when the cell is selected.
 
-![](/assets/2022/data-validation/input-message-definition-1-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/input-message-definition-1-en.png)
 
-![](/assets/2022/data-validation/input-message-example-1-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/input-message-example-1-en.png)
 
 It is possible to define an input message even if `Any value` is allowed.
 This is useful to enter remarks about the content of the cells.
 
-![](/assets/2022/data-validation/input-message-definition-2-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/input-message-definition-2-en.png)
 
-![](/assets/2022/data-validation/input-message-example-2-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/input-message-example-2-en.png)
 
 ## Error Alert
 
 When entering a non-allowed value, a standard error alert is shown.
 
-![](/assets/2022/data-validation/error-stop-standard-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-stop-standard-en.png)
 
 This can be personalized on the `Error Alert` tab to show a more meaningful message.
 
-![](/assets/2022/data-validation/error-stop-custom-def-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-stop-custom-def-en.png)
 
-![](/assets/2022/data-validation/error-stop-custom-msg-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-stop-custom-msg-en.png)
 
 You can use other kind of error alerts.
 These can be picked under `Style`.
@@ -88,13 +88,13 @@ These can be picked under `Style`.
 - Warning
 - Information
 
-![](/assets/2022/data-validation/error-kind-dropdown-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-kind-dropdown-en.png)
 
 ### Stop
 
 `Stop` is the default error alert.
 
-![](/assets/2022/data-validation/error-stop-standard-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-stop-standard-en.png)
 
 - `Retry` selects the cell again to edit the entered value.
 - `Cancel` deletes the entered value. 
@@ -105,40 +105,40 @@ These can be picked under `Style`.
 With `Warning` a value can be entered anyway if confirmed.
 E.g. you might have a situation where in most cases a past date should be entered, while it should still be possible to enter future dates sometimes.
 
-![](/assets/2022/data-validation/error-warning-standard-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-warning-standard-en.png)
 
 - `Yes` leaves the entered value, even if it doesn't meet the allowance criterium.
 - `No` selects the cell again to edit the value.
 - `Cancel` deletes the entered value. 
 - `Help` opens the [data validation documentation](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249).
 
-![](/assets/2022/data-validation/error-warning-custom-def-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-warning-custom-def-en.png)
 
-![](/assets/2022/data-validation/error-warning-custom-msg-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-warning-custom-msg-en.png)
 
 ### Information
 
 With `Information` the value is entered without explicit confirmation.
 
-![](/assets/2022/data-validation/error-information-standard-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-information-standard-en.png)
 
 - `OK` leaves the entered value, even if it doesn't meet the allowance criterium.
 - `Cancel` deletes the entered value. 
 - `Help` opens the [data validation documentation](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249).
 
-![](/assets/2022/data-validation/error-information-custom-def-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-information-custom-def-en.png)
 
-![](/assets/2022/data-validation/error-information-custom-msg-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-information-custom-msg-en.png)
 
 ### Deactivate error alert
 
 You can choose to deactivate the error alert, in most cases it will be as if there is no data validation in place.
 
-![](/assets/2022/data-validation/error-no-message-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-no-message-en.png)
 
 This is useful to show standard options from a drop-down list while still allowing to entered custom values.
 
-![](/assets/2022/data-validation/error-no-message-example-en.png)
+![]({{ site.baseurl }}/assets/2022/data-validation/error-no-message-example-en.png)
 
 ## Download
 

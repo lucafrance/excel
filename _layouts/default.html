@@ -36,7 +36,7 @@
             {% if row["dir"] == page.dir %}
               {{ row["ISO639"] }}
             {% else %}
-              <a href="/{{ row["ISO639"] }}/{{ page.url | slice: 4, 100 }}">{{ row["ISO639"] }}</a>
+              <a href="{{ site.baseurl }}/{{ row["ISO639"] }}/{{ page.url | slice: 4, 100 }}">{{ row["ISO639"] }}</a>
             {% endif %}
           </em> &nbsp
         {% endfor %}
