@@ -37,7 +37,7 @@ Da es kein $-Zeichen vor dem 16 steht, ändert sich der Bezug auf die Zeile trot
 
 Man kann ähnlich den Bezug auf de Zeile mit dem $-Zeichen vor der Nummer festhalten.
 Hier z.B. die Zelle `G24` enthält die Formel `=A$24`.
-Beim Kopieren von `G24` über den Bereich `G24:K28`, bleibt jetzt die Spalte fest un die Spalte wird angepasst. 
+Beim Kopieren von `G24` über den Bereich `G24:K28`, bleibt jetzt die Zeile fest un die Spalte wird angepasst. 
 
 ![](/assets/2022/dollar-basics/104-dollar-row.png)
 
