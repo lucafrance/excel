@@ -49,7 +49,7 @@ Man kann einen *absoluter Bezug* durch den $-Zeichen vor der Buchstabe und Numme
 So wird der Bezug immer auf die gleiche Zelle Bleiben, unabhängig wovon diese kopiert wird.
 
 Hier z.B. die Zelle `G32` enthält die Formel `=$A$32`.
-Der Bezug bleibt jetzt `=$A$32`  über den gesamten Zellen-Bereich `G32:K36`
+Der Bezug bleibt jetzt `=$A$32` über den gesamten Zellen-Bereich `G32:K36`.
 
 ![](/assets/2022/dollar-basics/105-dollar-column-and-row.png)
 
