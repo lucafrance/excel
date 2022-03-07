@@ -76,6 +76,10 @@ So braucht man nicht das $-Zeichen manuell auf die richtige Stelle schreiben.
 >
 > ![](/assets/2022/dollar-basics/201-dollar-f4-1.png)
 
+## Download
+
+- [Beispiel](/assets/2022/dollar-basics/01-dollar-basics-example-de.xlsx)
+
 ## Verlinkungen
 
 - [Microsoft Support - Erstellen oder Ändern eines Zellbezugs](https://support.microsoft.com/de-de/office/erstellen-oder-%C3%A4ndern-eines-zellbezugs-c7b8b95d-c594-4488-947e-c835903cebaa)
