@@ -129,6 +129,8 @@ Alternativ kann man das Prozent-Format für eine existiere Nummer definieren.
 ## Download
 
 - [Beispiel]({{ site.baseurl }}/assets/2022/number-format-basics/01-number-format-basics-example-de.xlsx)
+- [Übung]({{ site.baseurl }}/assets/2022/number-format-basics/02-number-format-basics-exercise-de.xlsx)
+- [Lösung]({{ site.baseurl }}/assets/2022/number-format-basics/03-number-format-basics-solution-de.xlsx)
 
 ## Verlinkungen
 

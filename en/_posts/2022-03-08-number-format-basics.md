@@ -129,6 +129,8 @@ Alternatively you can define the percentage number format for an existing number
 ## Download
 
 - [Example]({{ site.baseurl }}/assets/2022/number-format-basics/01-number-format-basics-example-en.xlsx)
+- [Exercise]({{ site.baseurl }}/assets/2022/number-format-basics/02-number-format-basics-exercise-en.xlsx)
+- [Solution]({{ site.baseurl }}/assets/2022/number-format-basics/03-number-format-basics-solution-en.xlsx)
 
 ## Links
 
