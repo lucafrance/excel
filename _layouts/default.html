@@ -33,8 +33,13 @@
         
         {% for row in site.data.languages %}
           <em>
+            {% comment %} Language of the page inactive for main pages {% endcomment %}
             {% if row["dir"] == page.dir %}
               {{ row["ISO639"] }}
+            {% comment %} Language of the page inactive for posts {% endcomment %}
+            {% elsif row["ISO639"] == page.categories[0] %}
+              {{ row["ISO639"] }}
+            {% comment %} All other languages are linked {% endcomment %}
             {% else %}
               <a href="{{ site.baseurl }}/{{ row["ISO639"] }}/{{ page.url | slice: 4, 100 }}">{{ row["ISO639"] }}</a>
             {% endif %}
