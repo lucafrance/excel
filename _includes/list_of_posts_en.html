@@ -1,5 +1,6 @@
 <ul>
-{% for post in site.posts %}
+{% assign posts_sorted = site.posts | sort: 'title' %}
+{% for post in posts_sorted %}
   {% if post.categories contains "en" %}
     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}
