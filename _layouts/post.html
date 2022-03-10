@@ -28,7 +28,12 @@ layout: default
   <small>
     tags: 
     {% for tag in sorted_tags %}
-      <em><a id="{{ tag }}" href="/tags#{{ tag }}">{{ tag }}</a></em> &nbsp
+      {% if page.categories contains "de" %}
+        <em><a id="{{ tag }}" href="{{ site.baseurl }}/de/topics#{{ tag }}">{{ tag }}</a></em> &nbsp
+      {% endif %}
+      {% if page.categories contains "en" %}
+        <em><a id="{{ tag }}" href="{{ site.baseurl }}/en/topics#{{ tag }}">{{ tag }}</a></em> &nbsp
+      {% endif %}
     {% endfor %}
   </small>
 {% endif %}
