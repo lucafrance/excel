@@ -44,3 +44,4 @@ tags: [Shortcuts]
 ## Download
 
 - [Very big table]({{ site.baseurl }}/assets/2022/shortcuts/01-very-big-table.xlsx)
+- [Basic shortcuts exercise]({{ site.baseurl }}/assets/2022/shortcuts/02-basic-shortcuts-exercise-en.xlsx)

@@ -45,3 +45,4 @@ tags: [Tastenkombinationen]
 ## Download
 
 - [Sehr große Tabelle]({{ site.baseurl }}/assets/2022/shortcuts/01-very-big-table.xlsx)
+- [Übung Grund-Tastenkombinationen]({{ site.baseurl }}/assets/2022/shortcuts/02-basic-shortcuts-exercise-de.xlsx)
