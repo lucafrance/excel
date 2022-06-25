@@ -74,7 +74,7 @@ By using the @ symbol with a column name, Excel retrieves the value from the col
 ![]({{ site.baseurl }}/assets/2022/cell-names-basics/503-at-column-name-2-en.png)
 
 **Hint** The @ symbol is only necessary starting with Office 2019.
-In previous version of Office the statement works the same without the @ symbol. 
+In previous versions of Office the statement works the same without the @ symbol. 
 
 ## Download
 
