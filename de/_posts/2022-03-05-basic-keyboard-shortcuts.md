@@ -41,3 +41,7 @@ tags: [Tastenkombinationen]
 | `F4`, wenn in Funktion-Eingabekästchen | $-Optionen (mehrmals drücken) |
 | `Strg` + `1` | Zellen formatieren |
 | `Strg` + `F3` | Namens-Manager |
+
+## Download
+
+- [Sehr große Tabelle]({{ site.baseurl }}/assets/2022/shortcuts/01-very-big-table.xlsx)

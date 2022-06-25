@@ -40,3 +40,7 @@ tags: [Shortcuts]
 | `F4`, if in function input box | `$`-Options (press several times) |
 | `Ctrl` + `1` | Format cells |
 | `Ctrl` + `F3` | Name Manager |
+
+## Download
+
+- [Very big table]({{ site.baseurl }}/assets/2022/shortcuts/01-very-big-table.xlsx)
