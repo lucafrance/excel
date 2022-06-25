@@ -1,7 +1,7 @@
 ---
 title: Datenüberprüfung Grundlagen
 tags: [Datenüberprüfung]
-last_update: 2022-02-27
+last_update: 2022-06-25
 ---
 
 `Daten` > `Datenüberprüfung`
@@ -143,3 +143,5 @@ Es ist nützlich um Standard-Optionen als Dropdown-Liste zu zeigen und um trotzd
 ## Download
 
 - [Beispiel]({{ site.baseurl }}/assets/2022/data-validation/01-data-validation-example-de.xlsx)
+- [Übung]({{ site.baseurl }}/assets/2022/data-validation/02-data-validation-exercise-de.xlsx)
+- [Lösung]({{ site.baseurl }}/assets/2022/data-validation/03-data-validation-solution-de.xlsx)

@@ -1,7 +1,7 @@
 ---
 title: Data Validation Basics
 tags: [data validation]
-last_update: 2022-02-27
+last_update: 2022-06-25
 ---
 
 `Data` > `Data Validation`
@@ -143,3 +143,5 @@ This is useful to show standard options from a drop-down list while still allowi
 ## Download
 
 - [Example]({{ site.baseurl }}/assets/2022/data-validation/01-data-validation-example-en.xlsx)
+- [Exercise]({{ site.baseurl }}/assets/2022/data-validation/02-data-validation-exercise-en.xlsx)
+- [Solution]({{ site.baseurl }}/assets/2022/data-validation/03-data-validation-solution-en.xlsx)
