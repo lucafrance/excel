@@ -1,6 +1,7 @@
 ---
 title: SUMME und MITTELWERT Funktionen
 tags: [SUMME, MITTELWERT, Tabellen]
+last_update: 2022-06-25
 ---
 
 ## Funktion SUMME
@@ -59,6 +60,8 @@ Das wäre ohne Tabelle in der Regel nicht der Fall.
 ## Download
 
 - [Beispiel]({{ site.baseurl }}/assets/2022/sum-average/01-sum-average-example-de.xlsx)
+- [Übung]({{ site.baseurl }}/assets/2022/sum-average/02-sum-average-exercise-de.xlsx)
+- [Lösung]({{ site.baseurl }}/assets/2022/sum-average/03-sum-average-solution-de.xlsx)
 
 ## Verlinkungen
 

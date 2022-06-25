@@ -1,6 +1,7 @@
 ---
 title: SUM and AVERAGE Functions
 tags: [SUM, AVERAGE, Tables]
+last_update: 2022-06-25
 ---
 
 ## SUM function
@@ -59,6 +60,8 @@ This is in general not the case without a table.
 ## Download
 
 - [Example]({{ site.baseurl }}/assets/2022/sum-average/01-sum-average-example-en.xlsx)
+- [Exercise]({{ site.baseurl }}/assets/2022/sum-average/02-sum-average-exercise-en.xlsx)
+- [Solution]({{ site.baseurl }}/assets/2022/sum-average/03-sum-average-solution-en.xlsx)
 
 ## Links
 
