@@ -1,6 +1,7 @@
 ---
 title: $ Symbol Basics
 tags: [Dollar symbol]
+last_update: 2022-06-25
 ---
 
 ## Create a cell reference
@@ -79,6 +80,8 @@ This way it is not necessary to enter the $ at the right spot manually.
 ## Download
 
 - [Example]({{ site.baseurl }}/assets/2022/dollar-basics/01-dollar-basics-example-en.xlsx)
+- [Exercise]({{ site.baseurl }}/assets/2022/dollar-basics/02-dollar-basics-exercise-en.xlsx)
+- [Solution]({{ site.baseurl }}/assets/2022/dollar-basics/03-dollar-basics-solution-en.xlsx)
 
 ## Links
 

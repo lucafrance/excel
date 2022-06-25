@@ -1,6 +1,7 @@
 ---
 title: $-Zeichen Grundlagen
 tags: [Dollar-Zeichen]
+last_update: 2022-06-25
 ---
 
 ## Ein Zellbezug erstellen
@@ -79,6 +80,8 @@ So braucht man nicht das $-Zeichen manuell auf die richtige Stelle schreiben.
 ## Download
 
 - [Beispiel]({{ site.baseurl }}/assets/2022/dollar-basics/01-dollar-basics-example-de.xlsx)
+- [Übung]({{ site.baseurl }}/assets/2022/dollar-basics/02-dollar-basics-exercise-de.xlsx)
+- [Lösung]({{ site.baseurl }}/assets/2022/dollar-basics/03-dollar-basics-solution-de.xlsx)
 
 ## Verlinkungen
 
