@@ -1,6 +1,7 @@
 ---
 title: Basic Shortcuts
 tags: [Shortcuts]
+last_update: 2022-06-25
 ---
 
 | Select cells |   |
