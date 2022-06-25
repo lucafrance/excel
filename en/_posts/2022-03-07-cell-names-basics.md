@@ -1,6 +1,7 @@
 ---
 title: Cell Names Basics
 tags: [Names]
+last_update: 2022-06-25
 ---
 
 Formulas can be understood and manged much easier with *names*.
@@ -79,6 +80,8 @@ In previous versions of Office the statement works the same without the @ symbol
 ## Download
 
 - [Example]({{ site.baseurl }}/assets/2022/cell-names-basics/01-cell-names-basics-example-en.xlsx)
+- [Exercise]({{ site.baseurl }}/assets/2022/cell-names-basics/02-cell-names-basics-exercise-en.xlsx)
+- [Solution]({{ site.baseurl }}/assets/2022/cell-names-basics/03-cell-names-basics-solution-en.xlsx)
 
 ## Links
 

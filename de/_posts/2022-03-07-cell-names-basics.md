@@ -1,6 +1,7 @@
 ---
 title: Zell-Namen Grundlagen
 tags: [Namen]
+last_update: 2022-06-25
 ---
 
 Durch die Verwendung von Namen können Formeln viel einfacher verstanden und verwaltet werden.
@@ -79,6 +80,8 @@ Für älteren Office-Versionen funktioniert der Befehl ohne @-Zeichen identisch.
 ## Download
 
 - [Beispiel]({{ site.baseurl }}/assets/2022/cell-names-basics/01-cell-names-basics-example-de.xlsx)
+- [Übung]({{ site.baseurl }}/assets/2022/cell-names-basics/02-cell-names-basics-exercise-de.xlsx)
+- [Lösung]({{ site.baseurl }}/assets/2022/cell-names-basics/03-cell-names-basics-solution-de.xlsx)
 
 ## Verlinkungen
 
