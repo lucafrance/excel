@@ -23,3 +23,4 @@ Ich biete Trainings online sowie vor Ort an.
 1. [SUMME und MITTELWERT Funktionen]({{ site.baseurl }}{% post_url de/2022-03-08-sum-average %})
 1. [Zahlenformate Grundlagen]({{ site.baseurl }}{% post_url de/2022-03-08-number-format-basics%})
 1. [Datenüberprüfung Grundlagen]({{ site.baseurl }}{% post_url de/2022-02-12-data-validation-basics %})
+1. [Grund-Diagramme]({{ site.baseurl }}{% post_url de/2022-06-26-basic-charts %})

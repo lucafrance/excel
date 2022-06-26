@@ -23,3 +23,4 @@ I offer trainings both online and in person.
 1. [SUM and AVERAGE Functions]({{ site.baseurl }}{% post_url en/2022-03-08-sum-average %})
 1. [Number Formats Basics]({{ site.baseurl }}{% post_url en/2022-03-08-number-format-basics%})
 1. [Data Validation Basics]({{ site.baseurl }}{% post_url en/2022-02-12-data-validation-basics %})
+1. [Basic Charts]({{ site.baseurl }}{% post_url en/2022-06-26-basic-charts %})
